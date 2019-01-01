@@ -14,7 +14,7 @@ class DesignAppBar extends StatelessWidget{
     final iconAppBar = Container(
       height: 80,
       padding: EdgeInsets.only(
-          top: 40.0,
+          top: 38.0,
           left: 20.0
       ),
       child: InkWell(
@@ -33,8 +33,8 @@ class DesignAppBar extends StatelessWidget{
     final designAppBar = Container(
       height: 80.0,
       padding: EdgeInsets.only(
-        top: 28.0,
-        right: 5.0
+        top: 24.0,
+        right: 10.0
       ),
       child: Center(
         child: Text(
@@ -49,7 +49,7 @@ class DesignAppBar extends StatelessWidget{
     );
 
     final imageAppBar = Container(
-      height: 85.0,
+      height: 86.0,
       decoration: BoxDecoration(
         image: DecorationImage(
           image: AssetImage('assets/img/AppBar.png'),
