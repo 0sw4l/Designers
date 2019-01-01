@@ -8,7 +8,9 @@ class DesignList extends StatelessWidget{
   Widget build(BuildContext context) {
     // TODO: implement build
     return Container(
-
+      margin: EdgeInsets.only(
+        top: 55.0
+      ),
       child: ListView(
         scrollDirection: Axis.vertical,
         children: <Widget>[

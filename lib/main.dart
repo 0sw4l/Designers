@@ -13,23 +13,10 @@ class MyApp extends StatelessWidget{
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.white,
-        appBar: AppBar(
-          backgroundColor: Color.fromRGBO(82, 150, 199, 1),
-          title: Container(
-            padding: EdgeInsets.only(
-              right: 50.0
-            ),
-            child: Center(
-              child: Text(
-                'DESIGNERS',
-              ),
-            )
-          ),
-          leading: Icon(Icons.menu),
-        ),
         body: Stack(
           children: <Widget>[
             DesignList(),
+            DesignAppBar('Designers')
           ],
         ),
       ),
